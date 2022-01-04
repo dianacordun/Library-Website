@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Libraria BOOKURIA</title>
+    <link href="acasa.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="turn-carti.png">
+    <script src="acasa.js"></script>
+</head>
+
+<body>
+
+<header id="start">
+    <input type="checkbox">
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav>
+        <ul class="meniu">
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="oferte.html">Oferte</a></li>
+            <li><a href="bestseller.html">Bestsellers</a>
+                <ul class="submeniu">
+                    <li><a href="bestseller.html#fictiune">Fictiune</a></li>
+                    <li><a href="bestseller.html#non-fictiune">Non-fictiune</a></li>
+                    <li><a href="bestseller.html#copii">Cărti pentru copii</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1><span>Librăria BOOKURIA</span><img id="turn-carti" src="turn-carti.png" alt="Turn cu cărți"></h1>
+    <section id="acasa">
+
+        <p class="inceput">Librăria Bookuria oferă iubitorilor de lectură o gamă variată de cărti, precum si oferte avantajoase în fiecare lună!</p>
+        <p><u>De ce să citim?</u></p>
+        <p id="citit">"Ceea ce citim are si va avea o influenta majora asupra capacitatii noastre de a analiza si constientiza lumea inconjuratoare – prin imbogatirea vocabularului nostru, a conexiunilor cerebrale si hartilor mentale. Am sa explic foarte simplu de ce un vocabular bogat – vocabularul fiind totalitatea cuvintelor folosite în mod efectiv de catre cineva în analiza si exprimare – este foarte important. Imagineaza-ti te rog orice situatie doresti, orice problema doresti sau orice circumstanta doresti – toate acestea vor fi analizate de tine si intelese, doar cu ajutorul totalitatii cuvintelor pe care le ai in vocabularul tau si al combinatiilor si conexiunilor pe care le faci in minte intre cuvintele pe care le ai „la tine” si pe care le intelegi. Este tot ceea ce ai, in acel moment, la indemana pentru a analiza, a intelege si a decide cu privire la acea situatie, problema sau circumstanta – gandeste-te…
+            La cele de mai sus a-si mai adauga vizualizarea si imaginatia, care, sunt doua unelte mentale foarte puternice si de baza, pe care le avem la indemana, pentru a ne crea viata pe care o dorim cu adevarat. Suntem fiinte care gandim in imagini iar in spatele imaginilor si a filmelor mentate stau cuvintele. In momentul in care citim ne hranim mintea, cream imagini si filme mentale, ne exersam imaginatia si cream harti mentale care ne vor ajuta „in explorarea” vietii si implicit in a ne bucura de viata si a ne vorma propria filosofie despre viata.
+
+            Indemnul meu este: „Haideti sa citim materiale si carti valoroase!”
+
+            Unul dintre mentorii mei dragi, Dl. Jim Rohn imi punea o intrebare simpla si importanta: „Citesti cartile care sa te ajute sa devii ceea ce doresti sa devii in urmatorii trei, cinci, zece ani?” -Bogdan Ilie </p>
+
+        <section id="citate">
+
+            <div id="container-animatie">
+                <div id="animata">
+                    <figure>
+                        <img src="citat1.jpg" alt="Citat Borges">
+                        <figcaption>Citat nr.1</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="citat2.jpg" alt="Citat Phelps">
+                        <figcaption>Citat nr.2</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="citat3.jpg" alt="Citat Murakami">
+                        <figcaption>Citat nr.3</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="citat4.jpg" alt="Citat Hemingway">
+                        <figcaption>Citat nr.4</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="citat5.jpg" alt="Citat Tolstoi">
+                        <figcaption>Citat nr.5</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="citat6.jpg" alt="Citat Anonim">
+                        <figcaption>Citat nr.6</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <h3>Câteva dintre citatele noastre preferate</h3>
+        </section>
+    </section>
+
+    <h2>Recomandare de carte</h2>
+    <p class="rec" id="incipit">Nu stii ce să citesti? Răspunde la această intrebare iar noi iti vom recomanda o carte de fictiune!<br> Dacă doresti ca recomandările să îti fie transmise pe email, completează următorul formular:</p>
+    <button id="trimitere" onclick="window.location.href='https://bookuria2.dianacordun.repl.co/';">Completează-mă!</button>
+    <br>
+  
+    <br>
+    <button id="startquiz" >Start Quiz</button>
+<br><br>
+
+
+    <form id="form">
+        <p id="intrebare">Care este genul literar preferat?</p>
+        <fieldset>
+            <input type="radio" name="q1" value="6rec.jpg">Thriller<br>
+            <input type="radio" name="q1" value="2rec.jpg">Fictiune istorică<br>
+            <input type="radio" name="q1" value="4rec.jpg">Romance<br>
+            <input type="radio" name="q1" value="5rec.jpg">Science Fiction<br>
+            <input type="radio" name="q1" value="3rec.jpg">Fantasy<br>
+            <input type="radio" name="q1" value="1rec.jpg">Mister<br>
+        </fieldset>
+    </form>
+
+
+    <div id="recomandare">
+    </div>
+    <br>
+</main>
+
+<footer>
+    <a href="#start" id="link-top">Back to top</a>
+</footer>
+
+
+</body>
+</html>
+
+
